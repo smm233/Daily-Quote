@@ -67,3 +67,35 @@
      top: 50%;
      left: -30px;
  }
+
+ .quote-container div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .quote-container button {
+    background: #02343F;
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid #02343F;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+ }
+
+ .quote-container button img {
+    width: 20px;
+    margin-right: 10px;
+ }
+
+.quote-container button:nth-child(2) {
+    background: transparent;
+    color: #333;
+    
+}
